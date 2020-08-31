@@ -1,0 +1,181 @@
+
+
+
+/* header */
+
+header{
+    font-family: 'Alata', sans-serif;
+    width: 50%;
+    height: 50%;
+    margin: 5px;
+    padding:0;
+ }
+
+ h1{
+   color: blanchedalmond;
+   margin-bottom: 4px;
+ }
+
+ p{
+     margin-top: 4px;
+     color: #ffecbd;
+     font-family: 'Alata', sans-serif;
+     text-align: center;
+    /*  margin-right: -6px; */
+ }
+ .container-top{
+    display: inline-block;
+  
+ }
+
+ img{
+    background-size: 50px 50px;
+ }
+
+
+ /* Body */
+
+ body{
+     padding: 45px 25px;
+     border-radius: 1px;
+     background-color: black;
+
+ }
+.playlist{
+    border: 2px solid #3f1663ad;
+    margin:1%;
+    width: 48% ;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-image: url(fond.jpeg);
+    border-radius: 20px; 
+    padding: 30px;
+    
+}
+
+
+
+.play_image{
+    width: 100%;
+    height: 235px;
+    padding: 0 10px;
+    position: relative;
+    margin: 1px -10px;
+    /* border-radius: 25px; */
+}
+
+.play_title{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+
+
+/* Boton animado */
+
+
+.boton-music{
+    color: #F72E07;
+    border: 1px solid #010000;
+    padding: 5px 20px ;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 1s ease;
+    font-size: 15px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+}
+
+.boton-music:hover{
+    background: #EC0005;
+    color: #fff !important;
+}
+
+/* Boton animado end */
+
+.play_detail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    /* border-block-color: red; */
+}
+
+
+.container{
+ /*  border: 1px solid red; */
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  padding: 0 15px;
+  overflow:scroll;
+  overflow-y:hidden; 
+  
+  
+  }
+  
+.lista_reproduccion{
+ display: flex;
+}
+
+.play_description{
+    color: rgb(63, 22, 95);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+/* 
+ESTILO DEL SCROLL // TODO SACADO DE PAPA GOOGLE UnU*/ 
+
+.container::-webkit-scrollbar {
+    width: 8px;
+  }
+
+   /* Estilos barra (thumb) de scroll */
+.container::-webkit-scrollbar-thumb {
+    background: rgb(255, 207, 0);
+    border-radius: 4px;
+  }
+
+  .container::-webkit-scrollbar-thumb:active {
+    background-color: black;
+  }
+  
+  .container::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 207, 60);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  /* Estilos track de scroll */
+  .container::-webkit-scrollbar-track {
+    background: rgb(63, 22, 99);
+    border-radius: 4px;
+  }
+
+  /* ESTILO DE SCROLL END */
+
+.footer{
+   background-color:black;
+   color: white;
+   display: flex;
+   align-items: center; 
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 15px;
+   margin-top: 15px;
+}
+
+.footer a{
+    color: rgb(255 207 62 / 1);
+    text-decoration: none;
+}
+    
+
+
+
+
